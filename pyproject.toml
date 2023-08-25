@@ -5,7 +5,9 @@ description = "Add your description here"
 authors = [
     { name = "Kei Takahashi", email = "takahashi.kgs@om.asahi-kasei.co.jp" }
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.101.1",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
