@@ -7,7 +7,7 @@
 
   // black
   "editor.formatOnSave": true,
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "none",
   "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
 
   // flake8
@@ -27,6 +27,7 @@
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
-    }
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
   }
 }
